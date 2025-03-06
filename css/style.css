@@ -52,7 +52,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+#bienvenida,  #testimonios, #promociones{
+    background-color: #fff3fc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#contacto{
+    background-color: #eeeeee;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -87,6 +96,7 @@ button[type="submit"]:hover {
 /* Productos Styles */
 #maquillaje, #facial {
     margin-top: 50px;
+    margin-bottom: 8%;
   
 }
 
@@ -96,8 +106,26 @@ button[type="submit"]:hover {
 }
 
 #maquillaje img, #facial img {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
     border-radius: 10px;
+   
 }
+
+#clientas {
+    text-align: center; /* Centra el título */
+}
+
+#clientas img {
+    width: 500px; 
+    height: 400px; 
+    margin: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-bottom: 8%;
+}
+
+
